@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@stripe/react-stripe-js": "^1.2.0",
+    "@stripe/stripe-js": "^1.11.0",
+    "@zeit/next-sass": "^1.0.1",
+    "dompurify": "^2.2.6",
+    "graphql": "^15.4.0",
+    "next": "^10.0.5",
+    "next-images": "^1.6.2",
+    "next-with-apollo": "^5.1.0",
+    "node-sass": "^5.0.0",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "validator": "^13.5.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
