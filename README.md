@@ -1,6 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+####This is some old work from a couple of years back. code and idea based on [gatsby-woocommerce-themes](https://github.com/imranhsayed/gatsby-woocommerce-themes) by [imranhsayed](https://github.com/imranhsayed)
 This project is consists of a next.js based theme for WooCommerce.
 
 [Live Preview](https://hoshop-nextgen.vercel.app/)
