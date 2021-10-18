@@ -1,0 +1,123 @@
+.billing-main-wrapper {
+  display: flex;
+}
+
+.empty-cart-button {
+  width: 250px;
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.payment-method-placeholder {
+  height: 2em;
+}
+
+.checkout-button {
+  width: 100%;
+  height: 3em;
+  margin-top: 1em;
+  border: none;
+  background-color: white;
+  color: #111;
+  outline: none;
+  border-radius: 0.25rem;
+  border: 1px solid #111;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.billing-header {
+  color: #111;
+  font-weight: 300;
+}
+
+.billing-header {
+  font-weight: 400;
+  margin-left: 0px;
+}
+
+.StripeElement {
+  margin: 1em 0em;
+}
+
+.billing-details-wrapper {
+  width: 50%;
+  padding: 0px 5% 0px 5%;
+}
+
+.billing-order-payment-wrapper {
+  width: 50%;
+  padding: 0px 5% 0px 5%;
+}
+
+.checkout-page-container {
+  h2 {
+    color: #111;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .payment-method-placeholder {
+    height: 10em;
+  }
+  .billing-main-wrapper {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .checkout-button {
+    margin: 2em 0em;
+  }
+
+  .StripeElement {
+    margin: 2em 0em;
+  }
+
+  .billing-header {
+    font-weight: 400;
+    margin-left: 0px;
+  }
+
+  .billing-details-wrapper {
+    width: 90%;
+  }
+
+  .billing-order-payment-wrapper {
+    width: 90%;
+  }
+}
+
+.empty-cart-message {
+  padding: 20px;
+}
+.empty-cart-message-text {
+  font-weight: 400;
+}
+
+.checkout-without-items {
+  margin: 1em;
+}
+.checkout-no-items-button {
+  background-color: white;
+  border: none;
+  color: #111;
+  border: 1px solid #111;
+  border-radius: 0.25rem;
+  font-size: 18px;
+  padding: 0.5em 1em;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .checkout-button:hover {
+    background-color: #111;
+    color: white;
+  }
+
+  .checkout-no-items-button:hover {
+    background-color: #111;
+    color: white;
+  }
+}
